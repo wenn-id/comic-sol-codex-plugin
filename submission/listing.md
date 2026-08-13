@@ -5,7 +5,7 @@
 - **Submission type:** Skills only
 - **Plugin name:** Comic Sol
 - **Plugin ID:** `comic-sol`
-- **Version:** `2.0.0rc4`
+- **Version:** `2.0.0`
 - **Category:** Developer Tools
 - **Developer:** Alwan Juliawan (`wenn-id`)
 - **Repository:** https://github.com/wenn-id/comic-sol-codex-plugin

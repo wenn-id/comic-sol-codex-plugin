@@ -1,6 +1,6 @@
 {
   "name": "comic-sol",
-  "version": "2.0.0rc4",
+  "version": "2.0.0",
   "description": "Create finished original manga/anime comics from prompts with editable plans, visual QA, deterministic lettering, page composition, and PDF export.",
   "author": {
     "name": "Alwan Juliawan",
@@ -36,7 +36,6 @@
     ],
     "brandColor": "#0B1115",
     "composerIcon": "./assets/comic-sol-logo.png",
-    "logo": "./assets/comic-sol-logo.png",
-    "screenshots": ["./assets/comic-sol-thumbnail.png"]
+    "logo": "./assets/comic-sol-logo.png"
   }
 }
