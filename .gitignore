@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+node_modules/
+.tmp/
+
+# Local plugin caches and generated project output
+comic-sol-output/
+.codex/
+
+# Keep generated marketing assets tracked; ignore only editor/runtime noise.
