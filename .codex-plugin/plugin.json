@@ -4,11 +4,10 @@
   "description": "Create finished original manga/anime comics from prompts with editable plans, visual QA, deterministic lettering, page composition, and PDF export.",
   "author": {
     "name": "Alwan Juliawan",
-    "email": "alwanjuliawan02@gmail.com",
     "url": "https://github.com/wenn-id"
   },
-  "homepage": "https://github.com/wenn-id/comicsol",
-  "repository": "https://github.com/wenn-id/comicsol",
+  "homepage": "https://github.com/wenn-id/comic-sol-codex-plugin",
+  "repository": "https://github.com/wenn-id/comic-sol-codex-plugin",
   "license": "MIT",
   "keywords": [
     "comic-generation",
@@ -29,7 +28,7 @@
     "developerName": "Alwan Juliawan",
     "category": "Developer Tools",
     "capabilities": ["Read", "Write"],
-    "websiteURL": "https://github.com/wenn-id/comicsol",
+    "websiteURL": "https://github.com/wenn-id/comic-sol-codex-plugin",
     "defaultPrompt": [
       "Make a 2-page manga about a courier delivering sunlight to an underground city.",
       "Turn this story into a finished comic with editable intermediate files and a PDF.",

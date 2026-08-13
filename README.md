@@ -12,7 +12,9 @@
 - PDF export, manifest, hashes, and transparent QA evidence
 - Resume-safe interrupted projects
 
-This plugin is **skills-only**. It does not require a hosted service or MCP server. The underlying Comic Sol repository includes an optional deterministic CLI/MCP surface for local development, but this plugin exposes the Codex-native skill workflow.
+This plugin is **skills-only**. It requires no hosted service or MCP server. The
+bundled workflow uses the image-generation capability exposed by the active Codex
+session and runs deterministic local scripts for validation and export.
 
 The bundled skill is self-contained: its deterministic scripts, templates, references, fonts, and font licenses are included under `skills/comic-sol/`. The canonical engine repository remains the source of truth for future engine releases.
 
@@ -30,7 +32,8 @@ codex plugin list
 codex plugin add comic-sol@comic-sol-marketplace
 ```
 
-The exact plugin installation surface can vary by Codex build. The repository includes `.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json` for local/repo marketplace testing.
+The repository includes `.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json`
+for local/repo marketplace testing.
 
 ## Use
 
@@ -46,6 +49,16 @@ Generated projects remain local and preserve editable intermediates beneath the 
 - License: MIT
 - Publisher: Alwan Juliawan
 
+## Legal and support
+
+- Privacy: [PRIVACY.md](PRIVACY.md)
+- Terms: [TERMS.md](TERMS.md)
+- Support: [SUPPORT.md](SUPPORT.md)
+- Submission materials: [submission/](submission/)
+
 ## Status
 
-This repository is a packaging wrapper for the public Comic Sol Codex Skill. Official public Plugin Directory publication requires submission and review through OpenAI's plugin portal.
+This repository is a packaging wrapper for the public Comic Sol Codex Skill.
+It is tested through a repo marketplace. Universal public Plugin Directory
+publication still requires the OpenAI submission portal, verified developer
+identity, Apps Management write access, and OpenAI review.
