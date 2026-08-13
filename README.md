@@ -14,6 +14,8 @@
 
 This plugin is **skills-only**. It does not require a hosted service or MCP server. The underlying Comic Sol repository includes an optional deterministic CLI/MCP surface for local development, but this plugin exposes the Codex-native skill workflow.
 
+The bundled skill is self-contained: its deterministic scripts, templates, references, fonts, and font licenses are included under `skills/comic-sol/`. The canonical engine repository remains the source of truth for future engine releases.
+
 ## Install from the source repository
 
 ```bash
