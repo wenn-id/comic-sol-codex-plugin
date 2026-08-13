@@ -7,9 +7,8 @@
     {
       "name": "comic-sol",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/wenn-id/comic-sol-codex-plugin.git",
-        "path": ".",
         "ref": "main"
       },
       "policy": {
